@@ -3,8 +3,6 @@ from django.test import TestCase
 from vote.models import News, Material, Comment, Vote
 from vote.service import VoteService
 
-#TODO Дописать фейк id
-
 
 class VoteTestCase(TestCase):
 
